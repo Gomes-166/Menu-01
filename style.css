@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+main{
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    margin: auto;
+    
+    /* efeito de transiçao de telas */
+    transition: width 0.3s,hight 0.3s;
+    transition-timing-function:ease ;
+
+}
+body{
+    background-color: aqua; 
+   width: 100vw;
+   height: 100vh;
+}
+section{
+    margin-top: 15%;
+   
+}
+#foto{
+    
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(foto1.jpeg);
+    height:250px;
+}
+#formulario{
+    display: block;
+    text-align: left;
+}
+form input{
+    transform: translateX(+15px);
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px ;
+    background-color: rgb(46, 255, 255);
+   
+}
+button{
+    margin-left: 18px;
+    margin-top: 10px;
+    width: 80%;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+button:hover{
+    background-color: rgb(25, 75, 58);
+    cursor: pointer;
+}
+.campo{
+    background-color: rgb(97, 15, 129);
+    transform: translateX(100%-10px);
+    margin: 5px 8px;
+    padding: 2px;
+    border-radius: 5px;
+  
+
+}
+span{
+    color: white;
+}
+label{
+    color: aliceblue;
+}
