@@ -1,0 +1,45 @@
+
+@media screen and (min-width:769px){
+    main{
+    width: 80vw;
+    height: 60vh;
+    
+    }
+    body{
+        background-image:linear-gradient(to top,#49a09d,#5f2c82);
+        
+    }
+
+    div#foto{
+    float: left;
+     width: 50%;
+     width: 30vw;
+     height: 60vh;
+     border-radius: 20px;
+     border-top-right-radius: 0%;
+     border-bottom-right-radius: 0%;
+    }
+    div#formulario{
+     font-size: large;
+     float: right;
+     width: 50%;
+    }
+    
+}
+@media screen and (min-width:1025px){
+    div#foto{
+        float: right;
+        width: 50%;
+        height: 60vh;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 9px;
+        border-top-right-radius: 9px;
+    }
+    #formulario{
+        float:left;
+        width: 50%;
+        margin-top: 10%;
+         }
+        
+}
