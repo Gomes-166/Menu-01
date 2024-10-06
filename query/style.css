@@ -2,7 +2,30 @@
     section{
         display: flex;
         flex-flow: row;
+        main{
+            width: 80vw;
+            height: 60vh;
+            
+            }
+            body{
+                background-image:linear-gradient(to top,#49a09d,#5f2c82);
+                
+            }
         
+            div#foto{
+            float: left;
+             width: 50%;
+             width: 30vw;
+             height: 60vh;
+             border-radius: 20px;
+             border-top-right-radius: 0%;
+             border-bottom-right-radius: 0%;
+            }
+            div#formulario{
+             font-size: large;
+             float: right;
+             width: 50%;
+            }
        
     }
 }
